@@ -1,0 +1,84 @@
+body{
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+}
+.main{
+  width: 400px;
+  height: 720px;
+  background-color: rgb(0, 0, 0);
+  border: solid;
+  border-width: 2px;
+  border-radius: 20px;
+}
+.display{
+  justify-content: center;
+  width: 358px;
+  height: 130px;
+  background-color: white;
+  border: solid;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  margin-left: 9px;
+  margin-top: 6px;
+  color: black;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+}
+
+.btnContainer {
+  display: grid;
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-row: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 20px;
+  margin-top: 10px;
+} 
+.operator, .all-clear, .button0, .numbers, .equal{
+  height: 80px;
+  width: 80px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(139, 129, 129);
+  text-align: center;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.yBtn{
+  background-color: #ff9500;
+}
+.button0{
+  width: 175px;
+  border-radius: 60px;
+}
+.light{
+  background-color: lightgray;
+  color: black;
+}
+.abs{
+  position: relative;
+}
+.pos1{
+  position: absolute;
+  left: 23px;
+  top: 20px;
+  font-size: 22px;
+}
+.pos2{
+  position: absolute;
+  font-size: 22px;
+  right: 27px;
+  top: 28px;
+}
+.button:hover{
+  opacity: 80%;
+}
+.button:active{
+  opacity: 70%;
+}
+.hline{
+  font-size: 32px;
+}

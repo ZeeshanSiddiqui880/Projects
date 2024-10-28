@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="main">  
+    <input class="display" type="text" value="0" disabled />
+    <div class="btnContainer"> 
+      <div class="row">
+        <button class=" light all-clear">C</button>
+        <button class=" operator light abs">
+          <div class="pos1">+</div>
+          /
+          <div class="pos2">-</div>
+        </button>
+        <button class=" operator light">% </button>
+        <button class=" hline  yBtn operator" value="/">&divide;</button>
+      </div>
+    
+      <div class="row">
+        <button class=" numbers" value='7'>7</button>
+        <button class=" numbers" value='8'>8</button>
+        <button class=" numbers" value='9'>9</button>
+        <button class=" yBtn operator" value="*">X</button>
+      </div>
+      <div class="row">
+        <button class=" numbers" value='4'>4</button>
+        <button class=" numbers" value='5'>5</button>
+        <button class=" numbers" value='6'>6</button>
+        <button class=" yBtn operator" value="-">-</button>
+      </div>
+      <div class="row">
+        <button class=" numbers" value='1'>1</button>
+        <button class=" numbers" value='2'>2</button>
+        <button class=" numbers" value='3'>3</button>
+        <button class="operator  yBtn" value="+">+</button>
+      </div>
+      <div class="row">
+        <button class="button0 numbers" value="0">0</button>
+        <button class="numbers" value=".">.</button>
+        <button class=" yBtn equal" value="=">=</button>
+      </div>
+    </div>
+  </div>
+
+ <script src="calculator.js">
+ </script>
+</body>
+</html>
