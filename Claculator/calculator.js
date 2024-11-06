@@ -18,7 +18,6 @@ numbers.forEach(number => {
   number.addEventListener('click', () => {
     inputNumber(number.value)
     updateDisplay(currInput)
-    console.log('zee');
   })
 });
 
@@ -87,8 +86,6 @@ clearBtn.addEventListener('click', () => {
 })
 
 equal.addEventListener('click', () => {
-  console.log('x');
   calculate();
   updateDisplay(currInput);
-  console.log('cc');
 })
